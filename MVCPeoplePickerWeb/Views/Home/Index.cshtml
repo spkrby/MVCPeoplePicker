@@ -1,0 +1,33 @@
+﻿@section Styles{
+    <link href="~/Content/peoplepickercontrol.css" rel="stylesheet" />
+}
+
+<div id="divSPChrome"></div>
+
+<div style="left: 50%; width: 500px; margin-left: -250px; position: absolute;">
+
+    <div id="divFieldOwners">
+        <h3 class="ms-core-form-line" style="margin-top: 15px !important;">Select a user:</h3>
+        <div class="ms-core-form-line">
+            <div id="divAdministrators" class="cam-peoplepicker-userlookup ms-fullWidth">
+                <span id="spanAdministrators"></span>
+                <input type="text" id="inputAdministrators" class="cam-peoplepicker-edit" Width="70" />
+            </div>
+            <div id="divAdministratorsSearch" class="cam-peoplepicker-usersearch ms-emphasisBorder"></div>
+            <input type="hidden" id="hdnAdministrators" />
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+</div>
+
+
+
+@section scripts {
+    <script src="~/Scripts/peoplepickercontrol.js"></script>
+    <script src="~/Scripts/peoplepickercontrol_resources.en.js"></script>
+    <script src="~/Scripts/app.js"></script>
+}

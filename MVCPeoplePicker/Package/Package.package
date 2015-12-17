@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="246a08d7-1983-41e3-9337-f79b90f74452" solutionId="246a08d7-1983-41e3-9337-f79b90f74452" resetWebServer="false" sharePointProductVersion="16.0" name="MVCPeoplePicker" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="69cc8683-26ae-4121-ba91-917df3da4b84" />
+  </features>
+</package>
